@@ -67,3 +67,8 @@ git tag -a v1.0 -m 'release 1.0 ready'
 git tag -a -m 'fixed bugs'
 
 git tag -a v1.0 -m 'release 1.1 for production'
+
+[git tag]
+
+[git show v1.0]
+
