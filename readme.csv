@@ -2,6 +2,11 @@ July 14, 2015
 
 Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
 
+
+# ----------------------------------------------------------
+# 308tube: Git and GitHub Version Control Tutorial - Part 1
+# ----------------------------------------------------------
+
 (1) Step 1: Create a folder "C:/GitHub_Repository" which is used to hold all repositories I am going to create during the learning process.
 (2) Step 2: Invoke “GitShell”
 (3) Step 3: In git shell, swicth to "C:/GitHub_Repository".
@@ -10,8 +15,8 @@ Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
 (6) switch to Tthe "GitHub_VersionControl" folder, one should see [master] in the prompt.
 
 ------------ above is the init commit ------------------
-
-[git add .] 			to put files / changes in the staging area and seems like copy/duplicating files.
+[git init <project>
+[git add <file OR .>]		to put files / changes in the staging area and seems like copy/duplicating files.  By staging the files/changes, you are telling git to track these files/changes.
 [git commit]			this put files/changes in local repository which reserve a snapshot
 [git commit -a -m 'Msg']	a shortcut to combine [git add] and [git commit]
 [git status]	
@@ -20,10 +25,23 @@ Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
 				if the the log is too big to fit the screen need to press [shift + + Z] to return to the prompt
 [git log --oneline]		a short version of the versions			
 [git diff]			show the difference before staging	
-[git diff --cache]		show the differences in the stage area
+[git diff --cached]		show the differences in the stage area
+
+------------ above is the second commit ------------------
 
 
+# ----------------------------------------------------------
+# 308tube: Git and GitHub Version Control Tutorial - Part 2 
+# ----------------------------------------------------------
 
+push the local reporitory to centralized repository
+Step 1: In GitHub.com, create a repository called "TestGitHub_initFromLocal" and copy the URL "https://github.com/YulongXieGitHub/GitProjects_VersionControl.git"  
 
+Step 2: In "GitProjects_VersionControl.git" of local machine do the following  
+Step 3: [git remote add origin https://github.com/YulongXieGitHub/GitProjects_VersionControl.git] 
+Step 4: [git pull origin master] since there is already a "readme" file in github which is not in the local folder. (only if there are files during the creation of the remote repository 
+Step 5: [git push -u origin master] to push everything created in local folder to github.com  
+
+------------ above is the third commit ------------------
 
 
