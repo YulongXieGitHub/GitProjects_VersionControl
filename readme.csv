@@ -59,7 +59,7 @@ previous commit: 	[git check out]
 			[git reset]
 			[git revert]
 			
-			
+	
 			
 ------------- Testing Tgging -------------
 git tag -a v1.0 -m 'release 1.0 ready'
@@ -72,3 +72,10 @@ git tag -a v1.0 -m 'release 1.1 for production'
 
 [git show v1.0]
 
+[git remote add origin https://github.com/YulongXieGitHub/GitProjects_VersionControl.git]	
+
+
+[git push origin v1.0]
+[git push origin v1.1]
+[git push origin v1.2]
+[git push origin master]
