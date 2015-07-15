@@ -62,5 +62,6 @@ previous commit: 	[git check out]
 			
 			
 ------------- Testing Tgging -------------
-git tag -a v1.0 -m 'release 1,0 ready'
+git tag -a v1.0 -m 'release 1.0 ready'
 
+git tag -a -m 'fixed bugs'
