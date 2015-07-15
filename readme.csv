@@ -80,3 +80,22 @@ git tag -a v1.0 -m 'release 1.1 for production'
 [git push origin v1.2]
 [git push origin --tag]
 [git push origin master]
+
+
+------------------------------ view version -----------------
+[git log] to show all versions
+[git checkout 20d70e] which is version one
+the file opened in textpad is now actually showing the file at version one
+[git checkout master] go back to current version.
+
+one can also use tag to go back to previous version
+[git checkout v1.0]
+[git checkout master] go back to current version.
+
+
+
+[git reset] to roll back to the version one want s and remove all version from that version to current version.
+		only do this if you have not shared remotely and all changes are in the local driver
+		
+[git revert]: revert option does not delete any history, instead it will create a new commit that will remove changes from the previous commit.  It is recommended that you revert in sequential order.
+		That means: if there are N commits between the current one and the one you want to revert, you need to do N time revert in SEQUENCE.
