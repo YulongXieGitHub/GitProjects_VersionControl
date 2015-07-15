@@ -39,8 +39,7 @@ Step 1: In GitHub.com, create a repository called "TestGitHub_initFromLocal" and
 
 Step 2: In "GitProjects_VersionControl.git" of local machine do the following  
 Step 3: [git remote add origin https://github.com/YulongXieGitHub/GitProjects_VersionControl.git] 
-Step 4: [git pull origin master] since there is already a "readme" file in github which is not in the local folder. (only if there are files during the creation of the remote repository 
-Step 5: [git push -u origin master] to push everything created in local folder to github.com  
+Step 4: [git push -u origin master] to push everything created in local folder to github.com  
 
 ------------ above is the third commit ------------------
 
