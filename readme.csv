@@ -9,6 +9,21 @@ Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
 (5) Step 5: Under "C:/GitHub_Repository", [git init .\GitHub_VersionControl] to initialize repository "GitHub_VersionControl"
 (6) switch to Tthe "GitHub_VersionControl" folder, one should see [master] in the prompt.
 
+------------ above is the init commit ------------------
+
+[git add .] 			to put files / changes in the staging area and seems like copy/duplicating files.
+[git commit]			this put files/changes in local repository which reserve a snapshot
+[git commit -a -m 'Msg']	a shortcut to combine [git add] and [git commit]
+[git status]	
+[git status -s]			show what modified in short
+[git log]			versions
+				if the the log is too big to fit the screen need to press [shift + + Z] to return to the prompt
+[git log --oneline]		a short version of the versions			
+[git diff]			show the difference before staging	
+[git diff --cache]		show the differences in the stage area
+
+
+
 
 
 
