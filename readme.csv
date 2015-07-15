@@ -78,4 +78,5 @@ git tag -a v1.0 -m 'release 1.1 for production'
 [git push origin v1.0]
 [git push origin v1.1]
 [git push origin v1.2]
+[git push origin --tag]
 [git push origin master]
