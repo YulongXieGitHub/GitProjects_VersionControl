@@ -1,0 +1,14 @@
+July 14, 2015
+
+Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
+
+(1) Step 1: Create a folder "C:/GitHub_Repository" which is used to hold all repositories I am going to create during the learning process.
+(2) Step 2: Invoke “GitShell”
+(3) Step 3: In git shell, swicth to "C:/GitHub_Repository".
+(4) Step 4: create a subfolder "GitHub_VersionControl"
+(5) Step 5: Under "C:/GitHub_Repository", [git init .\GitHub_VersionControl] to initialize repository "GitHub_VersionControl"
+(6) switch to Tthe "GitHub_VersionControl" folder, one should see [master] in the prompt.
+
+
+
+
