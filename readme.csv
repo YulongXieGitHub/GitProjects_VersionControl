@@ -1,6 +1,9 @@
 July 14, 2015
 
-Learning by watching https://www.youtube.com/watch?v=mYjZtU1-u9Y
+PART 1: Https://www.youtube.com/watch?v=mYjZtU1-u9Y
+PART 2: https://www.youtube.com/watch?v=8r_IErxmoUc
+PART 3: https://www.youtube.com/watch?v=STJBFXskfCc
+PART 4: https://www.youtube.com/watch?v=LCv2BIQpPgI
 
 
 # ----------------------------------------------------------
@@ -44,3 +47,14 @@ Step 4: [git push -u origin master] to push everything created in local folder t
 ------------ above is the third commit ------------------
 
 
+
+
+# ----------------------------------------------------------
+# 308tube: Git and GitHub Version Control Tutorial - Part 4 
+# ----------------------------------------------------------
+merging conflicts
+git tagging		[git tag]
+			[git show]
+previous commit: 	[git check out]
+			[git reset]
+			[git revert]
